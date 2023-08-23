@@ -6,6 +6,8 @@ import io.example.domain.dto.EditAuthorRequest;
 import io.example.domain.dto.ListResponse;
 import io.example.domain.dto.SearchAuthorsQuery;
 import io.example.domain.dto.SearchRequest;
+
+//ここから下はDBとは関係ない
 import io.example.domain.model.Role;
 import io.example.service.AuthorService;
 import io.example.service.BookService;

@@ -10,6 +10,8 @@ import io.example.domain.model.Role;
 import io.example.service.UserService;
 import io.swagger.v3.oas.annotations.tags.Tag;
 import jakarta.annotation.security.RolesAllowed;
+
+//ここから下はDBとは関係ない
 import lombok.RequiredArgsConstructor;
 import org.bson.types.ObjectId;
 import org.springframework.web.bind.annotation.DeleteMapping;
